@@ -1,3 +1,8 @@
+/*
+A closure in JavaScript is a function that has access to variables in its parent scope, even after the parent function has returned. 
+Closures are created when a function is defined inside another function, and the inner function retains access to the variables in the outer function's scope.
+*/
+
 const x = () => {
     let count = 0;
     return () => {
